@@ -1,5 +1,5 @@
 apiVersion: rbac.authorization.k8s.io
-kind: Role
+kind: RoleBinding
 metadata:
   name: pod-manager-binding
   namespace: dev-app  
